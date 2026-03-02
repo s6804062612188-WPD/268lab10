@@ -20,3 +20,5 @@ void DisplayData(struct Books CBook) {
 	printf("Book Title:\t%s\n", CBook.BookTitle); 
 } 
 
+// void DisplayData(struct Books CBook): คือ ฟังก์ชันที่รับสิ่งสิ่งหนึ่งเข้ามาในรูปแบบโครงสร้าง Books ในนาม CBook
+// พารามิเตอร์ที่รับเข้ามา: คิอ object CBook
