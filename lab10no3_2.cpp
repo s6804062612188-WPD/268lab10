@@ -20,3 +20,5 @@ void DisplayData(struct Books *CBook) {
 	printf("Book Title:\t%s\n",CBook->BookTitle);  
 } 
 
+// (*CBook).BookID คือ: อ่านค่า CBook ณ ตำแหน่งนั้นด้วยโครงสร้าง struct Book
+// CBook->BookTitle: คือ: เข้าถึง BookTitle ด้วย pointer CBook, จะได้ผลลัพธ์เดียวกับบรรทัดข้างบน
